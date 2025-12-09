@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorials | GlowUpTips</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">GlowUp<span>Tips</span></div>
+      <nav id="navbar" class="nav">
+        <a href="index.html">Home</a>
+        <a href="tutorials.html" class="active">Tutorials</a>
+        <a href="tips.html">Skincare</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+      </nav>
+      <button class="icon-btn" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="section">
+      <div class="container">
+        <div class="section-heading space-between">
+          <div>
+            <p class="eyebrow">Tutorial Library</p>
+            <h1>Looks for every occasion</h1>
+            <p>Filter by occasion, skill level, or time.</p>
+          </div>
+          <a class="btn ghost" href="tutorial.html?id=soft-pink-everyday">Open sample tutorial</a>
+        </div>
+
+        <div class="filters">
+          <label>
+            Occasion
+            <select id="filterOccasion">
+              <option value="">Any</option>
+              <option value="Everyday">Everyday</option>
+              <option value="Party">Party</option>
+              <option value="Wedding">Wedding</option>
+              <option value="Office">Office</option>
+              <option value="College">College</option>
+            </select>
+          </label>
+          <label>
+            Skill Level
+            <select id="filterSkill">
+              <option value="">Any</option>
+              <option value="Beginner">Beginner</option>
+              <option value="Intermediate">Intermediate</option>
+              <option value="Pro">Pro</option>
+            </select>
+          </label>
+          <label>
+            Time
+            <select id="filterTime">
+              <option value="">Any</option>
+              <option value="under10">Under 10 min</option>
+              <option value="10to20">10–20 min</option>
+              <option value="20plus">20+ min</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="grid cards-3" id="tutorialGrid"></div>
+        <p id="tutorialEmpty" class="muted-text hidden">No tutorials match those filters yet.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>GlowUpTips — demo educational site for beauty beginners.</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/tutorials.js"></script>
+</body>
+</html>
+

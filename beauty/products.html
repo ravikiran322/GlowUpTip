@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Suggestions | GlowUpTips</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">GlowUp<span>Tips</span></div>
+      <nav id="navbar" class="nav">
+        <a href="index.html">Home</a>
+        <a href="tutorials.html">Tutorials</a>
+        <a href="tips.html">Skincare</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="about.html">About</a>
+      </nav>
+      <button class="icon-btn" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="section">
+      <div class="container">
+        <div class="section-heading space-between">
+          <div>
+            <p class="eyebrow">Not selling — just suggesting</p>
+            <h1>Starter-friendly product picks</h1>
+            <p>Choose by skin type and budget.</p>
+          </div>
+        </div>
+
+        <div class="filters">
+          <label>
+            Skin Type
+            <select id="filterSkin">
+              <option value="">Any</option>
+              <option value="Oily">Oily</option>
+              <option value="Dry">Dry</option>
+              <option value="Combination">Combination</option>
+              <option value="All">All</option>
+            </select>
+          </label>
+          <fieldset class="budget-group">
+            <legend>Budget</legend>
+            <label><input type="checkbox" value="₹" checked> ₹ (Under ₹500)</label>
+            <label><input type="checkbox" value="₹₹" checked> ₹₹ (₹500–₹1200)</label>
+            <label><input type="checkbox" value="₹₹₹" checked> ₹₹₹ (₹1200+)</label>
+          </fieldset>
+        </div>
+
+        <div class="grid cards-3" id="productGrid"></div>
+        <p id="productEmpty" class="muted-text hidden">No products match those filters yet.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>GlowUpTips — demo educational site for beauty beginners.</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/products.js"></script>
+</body>
+</html>
+

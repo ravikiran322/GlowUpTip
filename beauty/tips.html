@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skincare Tips | GlowUpTips</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">GlowUp<span>Tips</span></div>
+      <nav id="navbar" class="nav">
+        <a href="index.html">Home</a>
+        <a href="tutorials.html">Tutorials</a>
+        <a href="tips.html" class="active">Skincare</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+      </nav>
+      <button class="icon-btn" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Skin-first approach</p>
+          <h1>Build routines by skin type and concern</h1>
+          <p>Simple morning and night steps with quick do’s and don’ts.</p>
+        </div>
+        <div class="grid cards-3" id="tipsGrid">
+          <!-- Cards inserted via JS -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>GlowUpTips — demo educational site for beauty beginners.</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    const tipsData = [
+      {
+        title: "Oily Skin Routine",
+        tag: "By Skin Type",
+        morning: ["Gel cleanser", "Oil-free moisturizer", "Broad spectrum SPF"],
+        night: ["Double cleanse", "Niacinamide serum", "Light gel moisturizer"],
+        dos: ["Use non-comedogenic products", "Blot paper over powder for touch-ups"],
+        donts: ["Skip moisturizer", "Use harsh scrubs daily"]
+      },
+      {
+        title: "Dry Skin Routine",
+        tag: "By Skin Type",
+        morning: ["Cream cleanser", "Hydrating toner", "Ceramide moisturizer + SPF"],
+        night: ["Gentle cleanse", "Hyaluronic serum on damp skin", "Rich moisturizer or sleeping mask"],
+        dos: ["Layer hydration", "Use lukewarm water"],
+        donts: ["Overuse foaming cleansers", "Sleep without sealing moisture"]
+      },
+      {
+        title: "Combination Skin",
+        tag: "By Skin Type",
+        morning: ["Gentle cleanser", "Light moisturizer", "SPF 50"],
+        night: ["Target T-zone with BHA 2–3x/week", "Hydrating serum", "Gel cream"],
+        dos: ["Spot treat oily areas", "Balance not strip"],
+        donts: ["Apply heavy oils on T-zone", "Ignore SPF on cloudy days"]
+      },
+      {
+        title: "Acne / Dark Spots",
+        tag: "By Concern",
+        morning: ["Salicylic cleanser", "Light moisturizer", "SPF (mandatory)"],
+        night: ["BHA toner 2–3x/week", "Azelaic acid or niacinamide", "Oil-free moisturizer"],
+        dos: ["Patch test actives", "Change pillowcases often"],
+        donts: ["Pick at blemishes", "Layer too many actives at once"]
+      },
+      {
+        title: "Dullness / Pigmentation",
+        tag: "By Concern",
+        morning: ["Gentle cleanse", "Vitamin C serum", "Moisturizer + SPF"],
+        night: ["Cleanse", "AHA serum 2–3x/week", "Barrier-support cream"],
+        dos: ["Introduce actives slowly", "Use SPF daily"],
+        donts: ["Combine strong acids in one routine", "Skip moisture"]
+      },
+      {
+        title: "Dark Circles",
+        tag: "By Concern",
+        morning: ["Cool compress", "Hydrating eye gel", "SPF around eyes"],
+        night: ["Cleanse", "Caffeine or peptide eye serum", "Moisturizer"],
+        dos: ["Sleep and hydrate", "Use sunscreen near eyes"],
+        donts: ["Rub eyes when removing makeup", "Apply strong retinoids without guidance"]
+      }
+    ];
+
+    const tipsGrid = document.getElementById("tipsGrid");
+    tipsData.forEach(tip => {
+      const card = document.createElement("article");
+      card.className = "card collapsible";
+      card.innerHTML = `
+        <div class="card-header">
+          <div>
+            <p class="label">${tip.tag}</p>
+            <h3>${tip.title}</h3>
+          </div>
+          <button class="icon-btn" aria-label="Toggle section">⌄</button>
+        </div>
+        <div class="card-body">
+          <div class="pill-row"><span class="pill">Morning</span>${tip.morning.map(m => `<span class="chip">${m}</span>`).join("")}</div>
+          <div class="pill-row"><span class="pill">Night</span>${tip.night.map(m => `<span class="chip">${m}</span>`).join("")}</div>
+          <p><strong>Do’s:</strong> ${tip.dos.join("; ")}.</p>
+          <p><strong>Don’ts:</strong> ${tip.donts.join("; ")}.</p>
+        </div>
+      `;
+      card.querySelector(".icon-btn").addEventListener("click", () => {
+        card.classList.toggle("open");
+      });
+      tipsGrid.appendChild(card);
+    });
+  </script>
+</body>
+</html>
+

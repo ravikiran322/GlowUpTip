@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Hydrating Gel Moisturizer",
+    "type": "Moisturizer",
+    "for": "Lightweight everyday",
+    "skinType": ["Oily", "Combination"],
+    "budget": "₹₹",
+    "tag": "Beginner-friendly"
+  },
+  {
+    "name": "Matte Liquid Lipstick",
+    "type": "Lip Color",
+    "for": "Long-wear events",
+    "skinType": ["All"],
+    "budget": "₹",
+    "tag": "Long-wear"
+  },
+  {
+    "name": "Hydrating Tinted Sunscreen SPF 50",
+    "type": "SPF + Base",
+    "for": "Daily outdoor use",
+    "skinType": ["Dry", "Combination"],
+    "budget": "₹₹₹",
+    "tag": "Everyday"
+  },
+  {
+    "name": "Minimal 5-Product Starter Kit",
+    "type": "Kit",
+    "for": "Beginner essentials",
+    "skinType": ["All"],
+    "budget": "₹₹",
+    "tag": "Starter kit"
+  },
+  {
+    "name": "Beginner Brush Set",
+    "type": "Tools",
+    "for": "Face + eyes basics",
+    "skinType": ["All"],
+    "budget": "₹",
+    "tag": "Beginner-friendly"
+  },
+  {
+    "name": "Pore-Blurring Primer",
+    "type": "Primer",
+    "for": "Smooth base",
+    "skinType": ["Oily", "Combination"],
+    "budget": "₹₹",
+    "tag": "Long-wear"
+  },
+  {
+    "name": "Cream Blush Stick",
+    "type": "Blush",
+    "for": "Fresh dewy finish",
+    "skinType": ["Dry", "Combination"],
+    "budget": "₹₹",
+    "tag": "Everyday"
+  },
+  {
+    "name": "Brown Mascara",
+    "type": "Mascara",
+    "for": "Soft definition",
+    "skinType": ["All"],
+    "budget": "₹",
+    "tag": "Beginner-friendly"
+  }
+]
+

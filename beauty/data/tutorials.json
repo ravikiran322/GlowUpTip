@@ -1,0 +1,137 @@
+[
+  {
+    "id": "soft-pink-everyday",
+    "title": "Soft Pink Everyday Look",
+    "difficulty": "Beginner",
+    "time": 15,
+    "occasion": ["Everyday", "College"],
+    "tags": ["natural", "rosy", "light"],
+    "image": "assets/images/looks/soft-pink.jpg",
+    "products": [
+      "Hydrating primer",
+      "Light coverage foundation",
+      "Cream blush",
+      "Brown mascara",
+      "Nude pink lipstick"
+    ],
+    "steps": [
+      "Prep your skin with a lightweight moisturizer.",
+      "Apply a light coverage foundation or BB cream.",
+      "Use a soft pink shimmer on the lids.",
+      "Finish with mascara and a pink lip tint."
+    ]
+  },
+  {
+    "id": "class-ready-5min",
+    "title": "5-Min Class-Ready Face",
+    "difficulty": "Beginner",
+    "time": 8,
+    "occasion": ["Everyday", "College"],
+    "tags": ["fast", "minimal"],
+    "image": "assets/images/looks/class-ready.jpg",
+    "products": [
+      "Tinted moisturizer",
+      "Concealer",
+      "Clear brow gel",
+      "Tinted lip balm"
+    ],
+    "steps": [
+      "Dot tinted moisturizer and blend with fingers.",
+      "Conceal under eyes and blemishes.",
+      "Brush brows up with clear gel.",
+      "Swipe tinted balm on lips and cheeks."
+    ]
+  },
+  {
+    "id": "office-soft-glam",
+    "title": "Office Soft Glam",
+    "difficulty": "Intermediate",
+    "time": 18,
+    "occasion": ["Office", "Interview"],
+    "tags": ["neutral", "polished"],
+    "image": "assets/images/looks/office-soft-glam.jpg",
+    "products": [
+      "Pore-blurring primer",
+      "Medium coverage foundation",
+      "Matte neutral eyeshadow quad",
+      "Brown eyeliner",
+      "Matte nude lipstick"
+    ],
+    "steps": [
+      "Prime for a smooth, long-wear base.",
+      "Apply medium coverage foundation and set T-zone.",
+      "Sweep matte browns on lids; define lash line with brown liner.",
+      "Add mascara and a soft contour.",
+      "Finish with matte nude lipstick."
+    ]
+  },
+  {
+    "id": "party-shimmer",
+    "title": "Party Shimmer Eyes",
+    "difficulty": "Intermediate",
+    "time": 22,
+    "occasion": ["Party"],
+    "tags": ["bold eyes", "shimmer"],
+    "image": "assets/images/looks/party-shimmer.jpg",
+    "products": [
+      "Glowy primer",
+      "Full coverage foundation",
+      "Metallic eyeshadow",
+      "Liquid eyeliner",
+      "Setting spray"
+    ],
+    "steps": [
+      "Apply glowy primer and full coverage base.",
+      "Pack metallic shadow on lids and blend edges.",
+      "Create a wing with liquid liner.",
+      "Coat lashes with volumizing mascara.",
+      "Set with spray for long wear."
+    ]
+  },
+  {
+    "id": "wedding-soft-rose",
+    "title": "Wedding Soft Rose",
+    "difficulty": "Intermediate",
+    "time": 25,
+    "occasion": ["Wedding", "Party"],
+    "tags": ["romantic", "long-wear"],
+    "image": "assets/images/looks/wedding-soft-rose.jpg",
+    "products": [
+      "Hydrating primer",
+      "Long-wear foundation",
+      "Rose gold eyeshadow",
+      "Individual lashes",
+      "Cream highlight"
+    ],
+    "steps": [
+      "Hydrate and prime for longevity.",
+      "Apply long-wear foundation and concealer.",
+      "Blend rose gold eyeshadow; add individual lashes.",
+      "Apply cream blush and highlight.",
+      "Set with powder on T-zone only."
+    ]
+  },
+  {
+    "id": "monochrome-mauve",
+    "title": "Monochrome Mauve",
+    "difficulty": "Pro",
+    "time": 20,
+    "occasion": ["Party", "Everyday"],
+    "tags": ["monochrome", "mauve"],
+    "image": "assets/images/looks/monochrome-mauve.jpg",
+    "products": [
+      "Hydrating primer",
+      "Cream foundation",
+      "Mauve cream blush",
+      "Mauve eyeshadow stick",
+      "Glossy mauve lip"
+    ],
+    "steps": [
+      "Prime and apply cream foundation.",
+      "Use mauve stick on lids, blend softly.",
+      "Tap mauve blush on cheeks and bridge of nose.",
+      "Glossy mauve lip to finish for a cohesive look."
+    ]
+  }
+]
+
