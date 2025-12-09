@@ -10,7 +10,7 @@ This is an educational demo project built with **HTML, CSS, and JavaScript**.
 
 ## 🌸 **Live Demo**
 
-*(Add your Netlify / GitHub Pages link here)*
+**https://velveraglow.netlify.app/**
 
 ---
 
